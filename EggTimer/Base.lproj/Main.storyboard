@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="EggTimer" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.29999999999999999" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x2W-WO-Wdk">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <color key="backgroundColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.14999999999999999" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="zS4-Mp-XXS">
+                                <rect key="frame" x="0.0" y="-44" width="414" height="814"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="In a pouch" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6K5-NQ-vYc">
+                                <rect key="frame" x="165.66666666666666" y="446" width="83" height="23.666666666666686"/>
+                                <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Soft - boiled" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s7c-Oa-Soc">
+                                <rect key="frame" x="20.666666666666671" y="477" width="99" height="24"/>
+                                <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l1Y-iv-awa">
+                                <rect key="frame" x="157" y="298" width="100" height="140"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="140" id="9Oo-SN-CmF"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="100" id="yD5-Fw-uVn"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="egg2"/>
+                                <state key="selected" image="selectedEgg"/>
+                                <connections>
+                                    <action selector="eggButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nF1-k6-upc"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hard boiled" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dUR-cB-KGk">
+                                <rect key="frame" x="300" y="477" width="95" height="23.666666666666686"/>
+                                <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d68-KF-QoB">
+                                <rect key="frame" x="20" y="329" width="100" height="140"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="140" id="iox-Dc-cg4"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="100" id="k3s-Op-hE4"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="egg1"/>
+                                <connections>
+                                    <action selector="eggButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OAB-RC-fXP"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lKR-rf-b9v">
+                                <rect key="frame" x="107" y="70" width="200" height="198"/>
+                                <color key="tintColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="75"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6YV-DC-Rj3">
+                                <rect key="frame" x="301" y="329" width="100" height="140"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="100" id="Lrg-kp-UiY"/>
+                                    <constraint firstAttribute="height" constant="140" id="aFj-Aa-C4g"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="egg3"/>
+                                <connections>
+                                    <action selector="eggButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4PI-js-YiM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gh7-u6-U5m">
+                                <rect key="frame" x="157" y="501" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="g5U-Uv-X83"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="100" id="kxX-pQ-csL"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="play-button"/>
+                                <connections>
+                                    <action selector="startButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jc1-id-Sed"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="secondarySystemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="l1Y-iv-awa" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="1wc-6P-Z0v"/>
+                            <constraint firstItem="s7c-Oa-Soc" firstAttribute="centerX" secondItem="d68-KF-QoB" secondAttribute="centerX" id="5yV-wM-r7y"/>
+                            <constraint firstItem="6K5-NQ-vYc" firstAttribute="centerX" secondItem="l1Y-iv-awa" secondAttribute="centerX" id="8cC-Ep-tUN"/>
+                            <constraint firstItem="6YV-DC-Rj3" firstAttribute="top" secondItem="l1Y-iv-awa" secondAttribute="bottom" constant="-109" id="9GA-eF-JX9"/>
+                            <constraint firstItem="x2W-WO-Wdk" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Bnm-PQ-jQ7"/>
+                            <constraint firstItem="lKR-rf-b9v" firstAttribute="centerX" secondItem="l1Y-iv-awa" secondAttribute="centerX" id="Djb-pE-Yvv"/>
+                            <constraint firstItem="dUR-cB-KGk" firstAttribute="top" secondItem="6YV-DC-Rj3" secondAttribute="bottom" constant="8" symbolic="YES" id="FQN-OV-I1a"/>
+                            <constraint firstItem="gh7-u6-U5m" firstAttribute="top" secondItem="6K5-NQ-vYc" secondAttribute="bottom" constant="31.333333333333314" id="FWx-Ho-sUO"/>
+                            <constraint firstItem="s7c-Oa-Soc" firstAttribute="top" secondItem="d68-KF-QoB" secondAttribute="bottom" constant="8" symbolic="YES" id="KNN-ps-Hjm"/>
+                            <constraint firstItem="lKR-rf-b9v" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="70" id="LN8-dK-r5I"/>
+                            <constraint firstItem="l1Y-iv-awa" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="Oii-pQ-ulg"/>
+                            <constraint firstItem="6YV-DC-Rj3" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="l1Y-iv-awa" secondAttribute="trailing" constant="8" id="Qzh-hK-sOD"/>
+                            <constraint firstItem="x2W-WO-Wdk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Yhf-4o-Est"/>
+                            <constraint firstItem="zS4-Mp-XXS" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="34" id="dj1-11-Ofc"/>
+                            <constraint firstItem="l1Y-iv-awa" firstAttribute="top" secondItem="lKR-rf-b9v" secondAttribute="bottom" constant="30" id="ejU-kP-RE0"/>
+                            <constraint firstItem="x2W-WO-Wdk" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="fah-Iv-ZJc"/>
+                            <constraint firstItem="zS4-Mp-XXS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="fv5-uj-Yh9"/>
+                            <constraint firstItem="d68-KF-QoB" firstAttribute="top" secondItem="l1Y-iv-awa" secondAttribute="bottom" constant="-109" id="hih-w5-5x7"/>
+                            <constraint firstItem="zS4-Mp-XXS" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="-44" id="mG8-yg-Wxq"/>
+                            <constraint firstItem="6K5-NQ-vYc" firstAttribute="top" secondItem="l1Y-iv-awa" secondAttribute="bottom" constant="8" symbolic="YES" id="neY-ga-mEO"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="6YV-DC-Rj3" secondAttribute="trailing" constant="13" id="opX-Fa-Ttl"/>
+                            <constraint firstItem="gh7-u6-U5m" firstAttribute="centerX" secondItem="6K5-NQ-vYc" secondAttribute="centerX" id="q49-nW-v7K"/>
+                            <constraint firstAttribute="bottom" secondItem="x2W-WO-Wdk" secondAttribute="bottom" id="rFy-ta-apc"/>
+                            <constraint firstItem="l1Y-iv-awa" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="d68-KF-QoB" secondAttribute="trailing" constant="8" id="ron-x7-JVa"/>
+                            <constraint firstItem="dUR-cB-KGk" firstAttribute="centerX" secondItem="6YV-DC-Rj3" secondAttribute="centerX" constant="-3.5" id="so5-eW-RyA"/>
+                            <constraint firstItem="d68-KF-QoB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="ule-hP-AGA"/>
+                            <constraint firstItem="zS4-Mp-XXS" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="za7-1k-NVn"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="hardBoiledButton" destination="6YV-DC-Rj3" id="uxL-xv-A7P"/>
+                        <outlet property="inAPouchButton" destination="l1Y-iv-awa" id="HcV-PG-UYW"/>
+                        <outlet property="softBoiledButton" destination="d68-KF-QoB" id="uIn-lD-gu9"/>
+                        <outlet property="startButton" destination="gh7-u6-U5m" id="rdT-zW-9r8"/>
+                        <outlet property="timerLabel" destination="lKR-rf-b9v" id="0ZJ-Fw-d9s"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-124.7663551401869" y="74.514038876889856"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="background" width="900" height="900"/>
+        <image name="egg1" width="500" height="723"/>
+        <image name="egg2" width="500" height="723"/>
+        <image name="egg3" width="500" height="723"/>
+        <image name="play-button" width="512" height="512"/>
+        <image name="selectedEgg" width="531" height="723"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="secondarySystemBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
