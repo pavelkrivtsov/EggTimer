@@ -49,6 +49,7 @@
 		1E15F37C260E392F008CDE0D /* EggTimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EggTimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E15F380260E392F008CDE0D /* EggTimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EggTimerUITests.swift; sourceTree = "<group>"; };
 		1E15F382260E392F008CDE0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E7FF603261B5A5E00795D8C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1EC6BDB12617CA7C00AFF763 /* EggTimer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EggTimer.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -108,6 +109,7 @@
 				1E15F367260E392F008CDE0D /* Assets.xcassets */,
 				1E15F369260E392F008CDE0D /* LaunchScreen.storyboard */,
 				1E15F36C260E392F008CDE0D /* Info.plist */,
+				1E7FF603261B5A5E00795D8C /* README.md */,
 			);
 			path = EggTimer;
 			sourceTree = "<group>";
