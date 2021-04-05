@@ -1,4 +1,4 @@
-# ![AppIcon](Assets.xcassets/EggTimerIcon.png) EggTimer
+# EggTimer
 Приложение - таймер для варки яиц
 
 ---
@@ -11,5 +11,3 @@
 
 ---
 
-![AppScreenshot](Assets.xcassets/EggTimerScreen1.png)
-![AppScreenshot](Assets.xcassets/EggTimerScreen2.png)
