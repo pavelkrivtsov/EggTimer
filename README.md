@@ -11,5 +11,5 @@
 
 ---
 
-![AppSceen](EggTimerScreen1.png)
-![AppScreen](EggTimerScreen2.png)
+![AppScreenshot](EggTimerScreen1.png)
+![AppScreenshot](EggTimerScreen2.png)

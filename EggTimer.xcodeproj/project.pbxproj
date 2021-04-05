@@ -81,6 +81,7 @@
 		1E15F352260E392D008CDE0D = {
 			isa = PBXGroup;
 			children = (
+				1E7FF603261B5A5E00795D8C /* README.md */,
 				1E15F35D260E392D008CDE0D /* EggTimer */,
 				1E15F374260E392F008CDE0D /* EggTimerTests */,
 				1E15F37F260E392F008CDE0D /* EggTimerUITests */,
@@ -109,7 +110,6 @@
 				1E15F367260E392F008CDE0D /* Assets.xcassets */,
 				1E15F369260E392F008CDE0D /* LaunchScreen.storyboard */,
 				1E15F36C260E392F008CDE0D /* Info.plist */,
-				1E7FF603261B5A5E00795D8C /* README.md */,
 			);
 			path = EggTimer;
 			sourceTree = "<group>";
