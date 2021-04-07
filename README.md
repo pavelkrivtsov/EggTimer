@@ -5,10 +5,10 @@
 ---
 
 На примере этого приложения я отработал :
-- создание интерфейса в __Storyboard__ припомощи __Interface Builder__, применение __Auto Layout__ и __Constraints__
-- применение __IBOutlet__ и __IBAction__
+- создание интерфейса в ___Storyboard___ при помощи ___Interface Builder___, применение ___Auto Layout___ и ___Constraints___
+- применение ___IBOutlet___ и ___IBAction___
 - применение перечислений с инструкцией switch
-- применение экземпляра класса __Timer()__
+- применение экземпляра класса ___Timer()___
 
 ---
 
